@@ -27,6 +27,12 @@ RUN /bin/bash -c "source /home/app/remove_bg/bin/activate && \
 # Create the output_images directory
 RUN mkdir /home/app/output_images
 
+# Create a writable cache directory for Hugging Face transformers
+RUN mkdir -p /home/app/.cache/huggingface/hub
+
+# Set the TRANSFORMERS_CACHE environment variable
+ENV TRANSFORMERS_CACHE=/home/app/.cache/huggingface/hub
+
 EXPOSE 8501
 
 # Add a healthcheck
