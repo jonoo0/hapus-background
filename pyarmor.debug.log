@@ -1,0 +1,30 @@
+2024-12-30 10:15:08,009 Python 3.9.21
+2024-12-30 10:15:08,009 Pyarmor 9.0.6 (trial), 000000, non-profits
+2024-12-30 10:15:08,012 Platform linux.x86_64
+2024-12-30 10:15:08,012 native platform linux.x86_64
+2024-12-30 10:15:08,012 home path: /home/codespace/.pyarmor
+2024-12-30 10:15:08,012 args: ['-d', 'gen', 'app.py']
+2024-12-30 10:15:08,012 command options: {'no_runtime': False, 'inputs': ['app.py']}
+2024-12-30 10:15:08,012 install plugin: CodesignPlugin
+2024-12-30 10:15:08,012 install plugin: DarwinUniversalPlugin
+2024-12-30 10:15:08,012 search inputs ...
+2024-12-30 10:15:08,013 find script app.py
+2024-12-30 10:15:08,013 find 1 top resources
+2024-12-30 10:15:08,074 start to generate runtime files
+2024-12-30 10:15:08,075 target platforms {'linux.x86_64'}
+2024-12-30 10:15:08,076 got /opt/conda/envs/python39/lib/python3.9/site-packages/pyarmor/cli/core/pyarmor_runtime.so
+2024-12-30 10:15:08,076 write dist/pyarmor_runtime_000000/pyarmor_runtime.so
+2024-12-30 10:15:08,077 patching runtime data at 780576
+2024-12-30 10:15:08,078 patch runtime file OK
+2024-12-30 10:15:08,078 call post runtime plugin <class 'pyarmor.cli.plugin.CodesignPlugin'>
+2024-12-30 10:15:08,079 generate runtime files OK
+2024-12-30 10:15:08,079 start to obfuscate scripts
+2024-12-30 10:15:08,080 process resource "app"
+2024-12-30 10:15:08,080 obfuscating file app.py
+2024-12-30 10:15:08,081 process inline marker
+2024-12-30 10:15:08,081 parse script
+2024-12-30 10:15:08,082 process co
+2024-12-30 10:15:08,092 patch co
+2024-12-30 10:15:08,098 write dist/app.py
+2024-12-30 10:15:08,099 obfuscate scripts OK
+2024-12-30 10:15:08,099 call post build plugin <class 'pyarmor.cli.plugin.DarwinUniversalPlugin'>
