@@ -1,5 +1,5 @@
 # app/Dockerfile
-FROM python:3.9-slim
+FROM python:3.9.21-slim-bullseye
 
 WORKDIR /app
 
