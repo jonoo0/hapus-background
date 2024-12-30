@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y \
     git \
     && rm -rf /var/lib/apt/lists/*
 
-RUN git clone https://github.com/streamlit/streamlit-example.git .
+RUN git clone https://github.com/jonoo0/hapus-background.git .
 
 # Install PyTorch, Torchvision, and Torchaudio for CPU
 RUN pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cpu
